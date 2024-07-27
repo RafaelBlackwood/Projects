@@ -1,0 +1,94 @@
+# Object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.debug
+
+# Build directories
+build/
+Build/
+cmake-build-debug/
+cmake-build-release/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.ncb
+*.opt
+*.plist
+*.pdb
+
+# Qt Creator files
+*.pro.user
+*.qbs.user
+*.pro.user.*
+*.qbs.user.*
+*.moc/
+*.qrc
+*.rcc
+
+# Xcode files
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+
+# Code::Blocks files
+*.layout
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Miscellaneous
+*.log
+*.temp
+*.tmp
+*.bak
+*.swp
+*~
+
+# Generated documentation
+/doc/
+
+# Generated files
+*.generated.cpp
+*.generated.h
+
+# Temporary files
+tmp/
+temp/
+
+# Visual Studio
+.vscode/
+.vscode/*
+.vs/
+.vs/*
