@@ -7,6 +7,8 @@ public class Main {
 
         System.out.println("Enter a mathematical expression:");
         String expression = sc.nextLine();
+
+        System.out.println(calc.calculate(expression));
     }
 
 }
