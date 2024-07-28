@@ -1,0 +1,5 @@
+user writes math expression
+program reads the expression
+separates numbers from operators
+make precedence, without counting on parenthesis
+get the result

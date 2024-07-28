@@ -1,31 +1,38 @@
+import java.util.List;
 import java.util.Scanner;
 import java.lang.Math;
 
 public class Calculator {
-    public static void main(String[] args) {
 
-        // Initialize Scanner for user input
-        Scanner scanner = new Scanner(System.in);
+    public double calculate(String expression) {
+        expression = expression.replaceAll("\\s","");
 
-        // Initialize Parser and Evaluator
-        Parser parser = new Parser();
-        Evaluator evaluator = new Evaluator();
+        double[] numbers = parseNumbers(expression);
+        char[] operators = parseOperators(expression);
 
-        // Get user input
-        System.out.print("Enter expression: ");
-        String input = scanner.nextLine();
+        double result = applyOperatorPrecedence(numbers, operators);
 
-        // Tokenize the input expression
-
-        // Evaluate the expression
-
-        // Display the result
-
-        // Close the scanner
-        scanner.close();
+        return result;
     }
 
-    private static void displayResult(double result) {
-        System.out.println("Result: " + result);
+
+
+    private char[] parseOperators(String expression) {
+
     }
+
+    private double[] parseNumbers(String expression) {
+
+    }
+
+    private double applyOperatorPrecedence(double[] numbers, char[] operators) {
+
+        for(char operator : operators) {
+            if(operator == '*' || operator == '/') {
+                numbers[0] *= numbers[1];
+            }
+        }
+
+    }
+
 }
